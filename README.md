@@ -4,9 +4,9 @@ k8s.mikejobrien.com
 # kops setup
 https://github.com/kubernetes/kops/blob/master/docs/aws.md
 
-export AWS_ACCESS_KEY_ID=$(aws configure get aws_access_key_id)
-export AWS_SECRET_ACCESS_KEY=$(aws configure get aws_secret_access_key)
-export NAME=k8s.mikejobrien.com
+export AWS_ACCESS_KEY_ID=$(aws configure get aws_access_key_id) \
+export AWS_SECRET_ACCESS_KEY=$(aws configure get aws_secret_access_key) \
+export NAME=k8s.mikejobrien.com \
 export KOPS_STATE_STORE=s3://k8s-mikejobrien-com-state-store
 
 # S3 bucket
