@@ -2,7 +2,7 @@
 k8s.mikejobrien.com
 
 # kops setup
-https://github.com/kubernetes/kops/blob/master/docs/aws.md
+[Getting Started with kOps on AWS](https://github.com/kubernetes/kops/blob/master/docs/getting_started/aws.md)
 
 export AWS_ACCESS_KEY_ID=$(aws configure get aws_access_key_id) \
 export AWS_SECRET_ACCESS_KEY=$(aws configure get aws_secret_access_key) \
